@@ -1,7 +1,7 @@
-#wrapper {
+/*#wrapper {
   width: 100%;
   margin: auto;
-}
+}*/
 header {
   width: 50%;
   float: left;
@@ -11,10 +11,9 @@ section {
   float: right;
 }
 footer {
-  clear: both;
   width: 100%;
   padding: 0;
-  overflow: hidden;
+  clear: both;
 }
 hgroup.title {
   padding: 0px;
@@ -28,7 +27,6 @@ header h1 {
 }
 #copyright {
   width: 50%;
-  float: right;
   text-align: right;
 }
 #copyright small {
