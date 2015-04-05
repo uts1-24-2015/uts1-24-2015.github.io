@@ -3,11 +3,11 @@
   margin: auto;
 }
 header {
-  width: 30%;
+  width: 50%;
   float: left;
 }
 section {
-  width: 70%;
+  width: 50%;
   float: right;
 }
 footer {
