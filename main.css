@@ -12,6 +12,9 @@ section {
 }
 footer {
   clear: both;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
 }
 hgroup.title {
   padding: 0px;
@@ -22,11 +25,6 @@ header h1 {
 }
 #htitle {
   float: center;
-}
-footer {
-  width: 100%;
-  padding: 0;
-  overflow: hidden;
 }
 #copyright {
   width: 50%;
