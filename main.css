@@ -2,6 +2,7 @@
   width: 100%;
   margin: auto;
 }*/
+
 header {
   width: 50%;
   float: left;
@@ -22,6 +23,16 @@ header h1 {
   margin: 0;
   float: center;
 }
+article a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: #f893a2;
+}
+article a:hover {
+  background-color: skyblue;
+}
 #htitle {
   float: center;
 }
@@ -30,5 +41,4 @@ header h1 {
   float: right;
   text-align: right;
 }
-#copyright small {
-}
+#copyright small {}
