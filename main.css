@@ -1,0 +1,21 @@
+#wrapper {width: 100%;
+margin: auto;}
+header {width:30%;
+float: left;}
+section {width:70%;
+float: right;}
+footer {clear: both;}
+
+hgroup.title {padding: 0px;}
+header h1 {margin: 0;
+float: center;}
+#htitle {float:center;}
+
+footer{width: 100%;
+padding: 0;
+overflow: hidden;}
+#copyright {width: 50%;
+float: right;
+text-align: right;}
+#copyright small {font-size: 0.75;
+margin: 0;}
