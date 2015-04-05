@@ -27,9 +27,8 @@ header h1 {
 }
 #copyright {
   width: 50%;
-  float: center;
+  float: right;
   text-align: right;
 }
 #copyright small {
-  margin-bottom: 0;
 }
