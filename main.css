@@ -1,20 +1,24 @@
-/*#wrapper {
+#wrapper {
   width: 100%;
   margin: auto;
-}*/
+}
 
 header {
-  width: 50%;
-  float: left;
+  width: 100%;
+  float: center;
 }
 section {
-  width: 50%;
-  float: right;
+  width: 100%;
+  clear: both;
+  float: center;
 }
 footer {
   width: 100%;
-  padding: 0;
   clear: both;
+  float: center;
+}
+header img {
+  width: 100%;
 }
 hgroup.title {
   padding: 0px;
@@ -28,7 +32,6 @@ article a {
   text-align: center;
   text-decoration: none;
   color: black;
-  background-color: #f893a2;
 }
 article a:hover {
   background-color: skyblue;
@@ -37,8 +40,8 @@ article a:hover {
   float: center;
 }
 #copyright {
-  width: 50%;
-  float: right;
-  text-align: right;
+  width: 100%;
+  float: center;
+  text-align: center;
 }
 #copyright small {}
