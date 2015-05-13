@@ -11,18 +11,11 @@ section {
   width: 100%;
   clear: both;
   float: center;
-  margin: 10%;
 }
 footer {
   width: 100%;
   clear: both;
   float: center;
-}
-header img {
-  width: 100%;
-}
-hgroup.title {
-  padding: 0px;
 }
 header h1 {
   margin: 0;
@@ -30,15 +23,13 @@ header h1 {
 }
 article a {
   display: block;
+  float: center;
   text-align: center;
   text-decoration: none;
   color: black;
 }
 article a:hover {
   background-color: skyblue;
-}
-#htitle {
-  float: center;
 }
 #copyright {
   width: 100%;
