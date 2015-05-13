@@ -1,59 +1,92 @@
 <html lang=ja-JP>
 
 <head>
-  <title>UTS1-24-2015</title>
+    <title>UTS1-24-2015</title>
 
-  <!-- meta data -->
-  <meta http-equiv="content-type" contet="text/html; charset=UTF-8" />
-  <meta name="robots" content="noindex, nofollow, noarchive" />
-  <!-- end -->
+    <!-- meta data -->
+    <meta http-equiv="content-type" contet="text/html; charset=UTF-8" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <!-- end -->
 
 
-  <!-- style -->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
-  <link href='main.css' rel='stylesheet' type='text/css'>
-  <!-- end -->
+    <!-- style -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+    <link href='css/main.css' rel='stylesheet' type='text/css'>
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <!-- end -->
 
-  <!-- javascript -->
-  <!--[if lt IE 9]>
+    <!-- javascript -->
+    <!--[if lt IE 9]>
     		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     		<![endif]-->
-  <!--[if lte IE 8]>
+    <!--[if lte IE 8]>
     		<script src="js/html5.js" type="text/javascript"></script>
     		<![endif]-->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
-  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/webfont/1.5.0/webfont.js"></script>
-  <!-- end -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/webfont/1.5.0/webfont.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.bxslider').bxSlider({
+                auto: true,
+            });
+        });
+    </script>
+
+    <!-- end -->
 </head>
 
 <body>
-  <div id="wrapper">
-    <header>
-      <hgroup class="title">
-        <div id="htitle">
-            <img src="churropon.jpg" />
-        </div>
-      </hgroup>
-    </header>
+    <div id="wrapper">
+        <header>
+            <hgroup class="title">
+                <div id="htitle">
+                    <ul class="bxslider">
+                        <li>
+                            <img src="images/01.jpg" title="churropon_desktop" />
+                        </li>
+                        <li>
+                            <img src="images/02.png" title="rakugaki" />
+                        </li>
+                        <li>
+                            <img src="images/03.jpg" title="syokachurou" />
+                        </li>
+                        <li>
+                            <img src="images/04.jpg" title="churropon_good">
+                        </li>
+                        <li>
+                            <img src="images/05.jpg" title="churropon_exp">
+                        </li>
+                        <li>
+                            <img src="images/06.jpg" title="koukoku">
+                        </li>
+                        <li>
+                            <img src="images/07.jpg" title="logo_churro">
+                        </li>
+                    </ul>
+                </div>
+            </hgroup>
+        </header>
 
-    <section>
-      <article class="link">
-        <a href="#"><b>★</b>Now Loading...</a>
-        <a href="#"><b>★</b>Now Loading...</a>
-        <a href="#"><b>★</b>Now Loading...</a>
-        <a href="#"><b>★</b>Now Loading...</a>
-      </article>
-    </section>
+        <section>
+            <article class="link">
+                <a href="#"><b>★</b>Now Loading...</a>
+                <a href="#"><b>★</b>Now Loading...</a>
+                <a href="#"><b>★</b>Now Loading...</a>
+                <a href="#"><b>★</b>Now Loading...</a>
+            </article>
+        </section>
 
-    <footer>
-      <div id="copyright">
-        <small> Copyright &copy; 2015- uts1-24-2015. All Rights Reserved.</small>
-      </div>
-    </footer>
-  </div>
+        <footer>
+            <div id="copyright">
+                <small> Copyright &copy; 2015- uts1-24-2015. All Rights Reserved.</small>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
