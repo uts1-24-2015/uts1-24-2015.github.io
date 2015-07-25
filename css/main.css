@@ -17,10 +17,7 @@ footer {
   clear: both;
   float: center;
 }
-header h1 {
-  margin: 0;
-  float: center;
-}
+
 article a {
   display: block;
   float: center;
@@ -31,9 +28,22 @@ article a {
 article a:hover {
   background-color: skyblue;
 }
+
+article table {
+    border-collapse: collapse;
+}
+
+article td {
+    width: 150px;
+}
+
+article.info {
+    margin: 1%;
+    padding: 10px;
+}
+
 #copyright {
   width: 100%;
   float: center;
   text-align: center;
 }
-#copyright small {}
